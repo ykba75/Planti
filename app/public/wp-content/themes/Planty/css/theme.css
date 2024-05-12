@@ -8,12 +8,12 @@
 li.menu-item a {
     color: black !important ;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; 
 }
  #menu-item-145 {
     background-color: #dc9f96;
     order:3 ; 
-    width: 200px ; 
+    width: 200px;
 
 }
  /* body */
@@ -22,7 +22,6 @@ body * {
 }
 .wpforms-submit-container {
     text-align: center; 
-    background-color: #dc9f96;
 }
 
 /* formulaire  commander  */
