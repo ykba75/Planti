@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+/* menu navigation  */
+/* Déplace le lien "Admin" vers la deuxième position */
+.menu-item-admin {
+    order: 2;
+}
+li.menu-item a {
+    color: black !important ;
+    text-align: center;
+    text-decoration: none;
+}
+ #menu-item-145 {
+    background-color: #dc9f96;
+    order:3 ; 
+    width: 200px ; 
+
+}
+ /* body */
+body * {
+   font-family: 'Syne', sans-serif; line-height: 0.8;
+}
+.wpforms-submit-container {
+    text-align: center; 
+    background-color: #dc9f96;
+}
+
+/* formulaire  commander  */
+.form-columns {
+    display: flex;
+}
+
+.form-column {
+    flex: 1;
+    padding : 0 30px; 
+    border-right: solid  white  1px ;
+}
+.form-column:last-child{
+    border-right: none;
+}
+.form-row {
+    margin-bottom: 15px; 
+}
+.form-columns h6 {
+    color: white ; 
+}
+ /* bouton formulairaire commander  */
+.wpcf7-form-control.wpcf7-submit {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    margin-top : 20px ; 
+    color: #e0b9b4;
+}
+/* footer  */
+#site-footer {
+    padding: 15px;
+    text-align: center; 
+ }
+
+#site-footer a {
+    color: black;
+}
