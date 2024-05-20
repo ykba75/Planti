@@ -1,28 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 /* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
 /* menu navigation  */
-/* Déplace le lien "Admin" vers la deuxième position */
-.menu-item-admin {
-    order: 2;
-}
 li.menu-item a {
     color: black !important ;
     text-align: center;
     text-decoration: none; 
+    padding: 20px 0px 20px 20px ;
 }
  #menu-item-145 {
     background-color: #dc9f96;
     order:3 ; 
     width: 200px;
-
+    height: 70px;
+}
+.header-footer-group{
+    margin-top:-3%; 
+   
+}
+.header-inner {
+    width:100% ;
+    padding-bottom: 1px;  
+}
+img.custom-logo{
+    padding-left: 8%;
 }
  /* body */
 body * {
    font-family: 'Syne', sans-serif; line-height: 0.8;
 }
-.wpforms-submit-container {
-    text-align: center; 
-}
+
 
 /* formulaire  commander  */
 .form-columns {
@@ -31,8 +37,8 @@ body * {
 
 .form-column {
     flex: 1;
-    padding : 0 30px; 
-    border-right: solid  white  1px ;
+    padding :  30px; 
+    border-right: solid  white  2px ;
 }
 .form-column:last-child{
     border-right: none;
@@ -42,7 +48,25 @@ body * {
 }
 .form-columns h6 {
     color: white ; 
+    margin: 10px 0px 100px;
 }
+/* bouton rencontrer */
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    text-align: center;
+}
+.case_commande input{
+    width: 25%; 
+    margin: auto;
+    display: flex;
+    gap:3%; 
+}
+.case_commande {
+    display: flex;
+    margin-bottom: 100px;
+    gap:3%; 
+    border-bottom: solid white 1px;
+}
+
  /* bouton formulairaire commander  */
 .wpcf7-form-control.wpcf7-submit {
     display: block; 
